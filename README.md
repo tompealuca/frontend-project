@@ -93,14 +93,14 @@ npm run build
 
 The output is created in the `dist/` directory:
 
-
+```bash
 dist/
   index.html
   assets/
     index-[hash].css
     index-[hash].js
     index-[hash].js.map
-
+```
 
 - `index-[hash].css` contains the compiled and bundled CSS used by the browser.  
 - You might notice there is no separate `.css.map` file. In development mode, CSS source maps are embedded inline in the CSS, so the browser DevTools can still map styles back to your original `.scss` files.  
